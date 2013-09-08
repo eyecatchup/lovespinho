@@ -1,0 +1,14 @@
+/* humanstxt.org */
+
+/* SITE */
+  Standards: HTML5, CSS3, PHP5.3
+  Components: jQuery, Orbit, Reveal
+  Software: Sublime Text 2, Zurb Foundation, Icecast, Linux, SSH
+
+/* TEAM */
+
+	This site was build by Jonathan Fontes (http://www.jonathanfontes.pt)
+	Este site foi construido por Jonathan Fontes. 
+
+	My contact is jonathan.alexey16@gmail.com
+	O meu contacto é jonathan.alexey16@gmail.com

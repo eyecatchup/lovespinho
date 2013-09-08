@@ -1,0 +1,74 @@
+	
+	
+
+	<div id="footer">
+		
+		<div class="row">
+			<div class="large-3 small-6 columns">
+				<h6> {{ variables:footerleft }} </h6>
+				<ul class="no-bullet">
+				{{ navigation:links group="footer-left" }}
+					<li> <a href="{{url}}" class="{{class}}" target="{{target}}"> {{ title }}</a> </li>
+				{{ /navigation:links }}
+				</ul>
+			</div>
+			<div class="large-3 small-6 columns">
+				<h6> {{ variables:footerleftmiddle }} </h6>
+				<ul class="no-bullet">
+				{{ navigation:links group="footer-left-middle" }}
+					<li> <a href="{{url}}" class="{{class}}" target="{{target}}"> {{ title }}</a> </li>
+				{{ /navigation:links }}
+				</ul>
+			</div>
+			<div class="large-3 small-6 columns">
+				<h6> {{ variables:footerrightmiddle }} </h6>
+				<ul class="no-bullet">
+				{{ navigation:links group="footer-right-middle" }}
+					<li> <a href="{{url}}" class="{{class}}" target="{{target}}"> {{ title }}</a> </li>
+				{{ /navigation:links }}
+				</ul>
+			</div>
+			
+			<div class="large-3 small-6 columns">
+				<h6> {{ variables:footerright }} </h6>
+				<ul class="no-bullet">
+				{{ navigation:links group="footer-right" }}
+					<li> <a href="{{url}}" class="{{class}}" target="{{target}}"> {{ title }}</a> </li>
+				{{ /navigation:links }}
+				</ul>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="large-12 small-12 columns">
+				<p class="footer_info i-special-footer i-center">
+					{{ variables:footer }}
+				</p>
+			</div>
+		</div>
+		
+
+
+	</div>
+
+
+
+	{{ template:partial name="foot"}}
+
+	{{ theme:js file="vendor/jquery.js" }}
+
+	{{ theme:js file="foundation.min.js"}}
+
+	{{ theme:js file="front_main.js" }}
+
+	{{ theme:js file="blueberry/jquery.blueberry.js" }}
+
+	
+
+<script>
+$(document).foundation();
+</script>
+
+
+</body>
+</html>

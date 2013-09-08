@@ -1,0 +1,57 @@
+<div class="s-overlay"></div>
+
+<div id="header">
+
+	<div class="row">
+
+		<div class="large-4 small-12 columns">
+			<a href="{{ url:site }}" id="logoheader">
+
+				{{ theme:image file="logo_lovespinho.png" alt="LOVEspinho" class="l-logo-header" }}
+			</a>
+		</div>
+
+		<div class="large-8 small-12 text-center columns">
+			<nav class="top-bar">
+
+				<ul class="title-area">
+					<li class="name">
+						<h1><a href="#"> </a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span> Menu </span></a></li>
+				</ul>
+				<section class="top-bar-section">
+					<ul class="left">
+
+						{{ navigation:links group="header" class="active"}}
+							<li><a href="{{ url }}" class="{{ class }} {{ title }}">{{ title }}</a></li>
+						{{ /navigation:links }}
+						
+					</ul>
+					<ul class="right">
+					{{ if user:not_logged_in }}
+					
+						<li><a href="{{url:site}}users/login/inicial/login"> Entrar </a></li>
+						<li><a href="{{url:site}}users/register"> Registar </a></li>
+					
+					{{ else }}
+						
+						{{ if user:group == 'equipa-gestor' || user:group == 'admin' }}
+						<li><a href="{{url:site}}admin"> Painel de Controlo </a></li>
+						{{ endif }}
+
+						<li><a href="{{url:site}}my-profile"> Perfil </a></li>
+						<li><a href="{{url:site}}users/logout"> Sair </a></li>
+
+					{{ endif }}
+					</ul>
+				</section>
+			</nav>
+			
+		</div>
+
+
+		</div>
+	</div>
+		
+</div>

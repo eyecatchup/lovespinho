@@ -1,0 +1,56 @@
+{{ theme:partial name="header"}}
+	
+
+
+	{{ theme:partial name="bigHeader" }}
+	
+	
+
+	
+	<section id="slider">
+		<div class="row">
+			<div class="large-12 small-12 columns">
+				
+				<ul data-orbit>
+					{{ blog:posts limit="5" }}
+						<li data-orbit-slide="{{id}}">
+							<div class="row">
+								<div class="large-8 small-12 large-offset-2 columns">
+									<h2>{{ title }}</h2>
+									<p>{{ intro }} <a href="{{ url }}" title="Read more about: {{ title }}">Ler mais</a></p>
+									<p>&nbsp;</p>
+								</div>
+							</div>
+						</li>
+					{{ /blog:posts }}
+				</ul>
+			
+				<!-- <div class="blueberry">
+					<ul class="slides">
+						
+						{{ files:listing folder="13" type="i" order-by="name"}}
+						
+							<li>
+								{{ files:image id=id size="960/400"}}
+							</li>
+
+						{{ /files:listing }}
+
+						
+					</ul>
+				</div>
+				-->
+				
+			</div>
+		</div>
+	</section>
+
+	<section id="body">
+		<div class="row">
+		{{ template:body }}	
+		</div>
+	</section>
+	
+	
+
+{{ theme:partial name="footer" }}

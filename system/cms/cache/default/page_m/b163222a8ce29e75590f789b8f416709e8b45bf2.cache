@@ -1,0 +1,63 @@
+a:3:{s:16:"__cache_contents";O:8:"stdClass":33:{s:2:"id";s:2:"15";s:7:"created";i:1368020314;s:7:"updated";i:1369496576;s:14:"ordering_count";s:1:"1";s:5:"front";s:3225:"<div class="large-4 small-12 columns">
+<h2><i class="global foundicon-heart">&nbsp;</i> Popularidade</h2>
+
+<p class="text-justify">Atingirmos popularidade entre voc&ecirc;s &eacute; a nossa maior arma para conseguirmos atingir o&nbsp;objectivo, trazer de volta a vossa r&aacute;dio a cidade de Espinho.</p>
+</div>
+
+<div class="large-4 small-12 columns">
+<h2><i class="global foundicon-globe">&nbsp;</i> Mundo</h2>
+
+<p class="text-justify">Queremos divulgar tudo que exista em Espinho. Transmiss&atilde;o essa de Espinho para o Mundo usando a internet.</p>
+</div>
+
+<div class="large-4 small-12 columns">
+<h2><i class="global foundicon-idea">&nbsp;</i> Objectivo</h2>
+
+<p class="text-justify">Nosso objectivo &eacute; ser uma r&aacute;dio sustent&aacute;vel com gente dentro que transmite r&aacute;dio em frequ&ecirc;ncia <b>FM</b> mesmo!</p>
+</div>
+
+<div class="clear">&nbsp;</div>
+
+<div class="large-12 small-12 columns text-center i-clean-special">
+<h2>LOVEspinho - <small>A r&aacute;dio da cidade de Espinho</small></h2>
+</div>
+
+<div class="large-12 small-12 columns">
+<h4>Com o apoio de ...</h4>
+</div>
+
+<div class="large-2 small-4 columns"><a class="th radius" href="#"><img src="holder.js/120x120" /> </a></div>
+
+<div class="large-2 small-4 columns"><a class="th radius" href="#"><img src="holder.js/120x120" /> </a></div>
+
+<div class="large-2 small-4 columns"><a class="th radius" href="#"><img src="holder.js/120x120" /> </a></div>
+
+<div class="large-2 small-4 columns"><a class="th radius" href="#"><img src="holder.js/120x120" /> </a></div>
+
+<div class="large-2 small-4 columns"><a class="th radius" href="#"><img src="holder.js/120x120" /> </a></div>
+
+<div class="large-2 small-4 columns"><a class="th radius" href="#"><img src="holder.js/120x120" /> </a></div>
+
+<div class="clear">&nbsp;</div>
+
+<div class="row">
+<div class="large-8 small-8 columns margin">
+<h4>LOVE qu&ecirc; ?!</h4>
+
+<p>A sigla <i>&quot;LOVE&quot;</i> significa Ligar, Ouvir, Viver, Espinho. O nosso objectivo &eacute; muito conciso &eacute; apoiar e divulgar principalmente mas n&atilde;o s&oacute;, todos os eventos, lojas tradicionais e not&iacute;cias que de certo modo contribui exponencialmente para o aumento do <u>fluxo de pessoas</u> em Espinho. Constru&iacute;ndo assim uma r&aacute;dio diferente das outras, seguindo uma express&atilde;o nossa, com <i>&quot;gente dentro&quot;</i> ao contrario das habituais r&aacute;dios por este pa&iacute;s fora, cooperando assim para o aumento de emprego.</p>
+</div>
+
+<div class="large-4 small-4 columns text-center margin"><i class="global foundicon-search i-special-big">&nbsp; </i></div>
+</div>
+
+<div class="row">
+<div class="large-4 small-4 columns text-center margin"><i class="global foundicon-mail i-special-big">&nbsp;</i></div>
+
+<div class="large-8 small-8 columns margin">
+<h4>Ah... ! <small>N&atilde;o se esque&ccedil;a de assinar a nossa newsletter!</small></h4>
+
+<p>N&atilde;o perca nada, nem por um momento. Pode sempre assinar a nossa newsletter que n&oacute;s iremos enviar a voc&ecirc;s mensalmente. Com novidades, ponto de situa&ccedil;&otilde;es, actualiza&ccedil;&otilde;es, gafes da r&aacute;dio, piadas e muito, muito e muito <b>MAIS!</b> n&atilde;o perca!</p>
+</div>
+</div>
+";s:10:"created_by";a:4:{s:7:"user_id";N;s:5:"email";N;s:8:"username";N;s:12:"display_name";N;}s:4:"last";s:1:"1";s:8:"odd_even";s:3:"odd";s:5:"count";i:1;s:4:"slug";s:7:"inicial";s:5:"class";s:0:"";s:5:"title";s:10:"Front Page";s:3:"uri";s:7:"inicial";s:9:"parent_id";s:1:"0";s:7:"type_id";s:1:"4";s:8:"entry_id";s:1:"1";s:3:"css";s:0:"";s:2:"js";s:0:"";s:10:"meta_title";s:49:"LOVEspinho &middot; A rádio da cidade de Espinho";s:13:"meta_keywords";s:32:"d16ba4d6506896ae1b49ba116cce3ca0";s:20:"meta_robots_no_index";s:1:"0";s:21:"meta_robots_no_follow";s:1:"0";s:16:"meta_description";s:163:"A rádio oficial de Espinho, LOVEspinho. É um sonho trazido de volta a Espinho, não é exigir a rádio de volta mas sim sustenta-la com pudermos e não perde-la!";s:11:"rss_enabled";s:1:"0";s:16:"comments_enabled";s:1:"0";s:6:"status";s:4:"live";s:10:"created_on";s:10:"1368023913";s:10:"updated_on";s:10:"1369500176";s:13:"restricted_to";s:1:"0";s:7:"is_home";s:1:"1";s:10:"strict_uri";s:1:"1";s:5:"order";s:1:"0";s:6:"layout";O:8:"stdClass":16:{s:2:"id";s:1:"4";s:4:"slug";s:5:"front";s:5:"title";s:5:"Front";s:11:"description";s:17:"Front with slider";s:9:"stream_id";s:1:"6";s:10:"meta_title";s:0:"";s:13:"meta_keywords";N;s:16:"meta_description";s:0:"";s:4:"body";s:11:"{{ front }}";s:3:"css";s:0:"";s:2:"js";s:126:"/* mixpanel */
+mixpanel.track("Page View", {"page": "{{ page:title }}" }, function() { console.log('track call succeeded') });";s:12:"theme_layout";s:10:"front.html";s:10:"updated_on";s:10:"1368963811";s:13:"save_as_files";s:1:"y";s:13:"content_label";s:13:"Front Content";s:11:"title_label";s:12:"Page Content";}}s:15:"__cache_created";i:1374379152;s:20:"__cache_dependencies";a:0:{}}

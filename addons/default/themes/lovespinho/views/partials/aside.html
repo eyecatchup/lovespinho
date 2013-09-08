@@ -1,0 +1,71 @@
+{{ widgets:area slug="right-side-head" }}
+
+<div class="large-12 small-12 columns">
+
+	{{ search:form class="search-form" }}
+	<fieldset>
+		<legend> Pesquisar </legend>
+
+		<div class="row">
+			<div class="large-12 small-12 columns">
+				<label> Termo</label>
+				<input name="q" placeholder="Pesquisa por termos..." />
+			</div>
+		</div>
+
+	</fieldset>
+
+	{{ /search:form }}
+
+</div>
+
+<div class="large-12 small-12 columns">
+	<h3> Socializa! </h3>
+	<a href="{{ url:site }}blog/rss/all.rss" target="_blank" data-attr="rss" class="mixpanel">
+		<i class="social foundicon-rss i-special-med">  </i>
+	</a>
+
+	<a href="http://www.facebook.com/sharer.php?u={{ url:current }}" target="_blank" data-attr="facebook share" class="mixpanel">
+		<i class="social foundicon-facebook i-special-med">  </i>
+	</a>
+	<a href="mailTo:info@lovespinho.pt" target="_blank" data-attr="mail" class="mixpanel">
+		<i class="general foundicon-mail i-special-med"> </i>
+	</a>
+</div>
+
+<div class="large-12 small-12 columns">
+
+	<h3> Categorias </h3>
+
+
+	<ul class="side-nav">
+		{{ if {url:segments segment='3' } == '' }}
+		<li class="active"> <a href="{{ url:site }}blog"> Todos as categorias </a></li>
+		{{ else }}
+		<li> <a href="{{ url:site }}blog"> Todos as categorias </a></li>
+		{{ endif }}
+	{{ blog:categories }}
+		{{ if {url:segments segment='3'} == slug }}
+  		<li class="active"><a href=" {{ url }}"> {{ title }}</a></li>
+  		{{ else }}
+  		<li><a href=" {{ url }}"> {{ title }}</a></li>
+  		{{ endif }}
+	{{ /blog:categories }}
+	</ul>
+
+</div>
+
+<div class="large-12 small-12 columns">
+
+
+	<h3> Publicidade </h3>
+
+	<img src="holder.js/303x200" class="" alt="ads lovespinho" title="ads lovespinho" />
+
+
+</div>
+
+<div class="clear"> </div>
+
+
+{{ widgets:area slug="right-side-footer" }}

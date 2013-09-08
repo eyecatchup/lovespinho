@@ -1,0 +1,34 @@
+{{ theme:partial name="header"}}
+
+	<div id="header">
+
+		<div class="row">
+
+			<div class="large-4 small-12 large-offset-4 columns">
+				<a href="<?php echo base_url(); ?>">
+
+					{{ theme:image file="logo_lovespinho.png" alt="LOVEspinho" class="l-logo-header" }}
+				</a>
+			</div>
+
+		</div>
+			
+	</div>
+
+	<section id="body" class="full">
+		<div class="row">
+		{{ template:body }}	
+		</div>
+	</section>
+
+	{{ template:partial name="foot"}}
+
+	{{ theme:js file="vendor/jquery.js" }}
+
+	{{ theme:js file="foundation.min.js"}}
+
+	{{ theme:js file="front_main.js" }}
+
+	{{ theme:js file="holder.js" }}
+
+	

@@ -1,0 +1,385 @@
+/**
+ * author: Jonathan Fontes, LOVEspinho.
+ * name: main.css
+ * date: 06-02-2013
+*/
+@import url(social_foundicons.css);
+
+@import url(general_foundicons.css);
+
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
+html, body {
+	
+	background: url('../img/squairy_light.png');
+	color:black;
+	
+}
+
+.orbit-container {
+	box-shadow: 0px 0px 40px #333;
+	background: white;
+	min-height: 300px;
+}
+
+div.blueberry ul.slides {
+	background-color: white;
+	box-shadow: rgb(51, 51, 51) 0px 0px 10px;
+	-webkit-box-shadow: rgb(51, 51, 51) 0px 0px 10px; 
+	-moz-box-shadow: rgb(51, 51, 51) 0px 0px 10px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	font-family: 'PT Sans', sans-serif;
+}
+
+i.i-special-big {
+	font-size: 140px;
+	line-height: 1;
+	-webkit-transition: color .5s;
+	-moz-transition: color .5s;
+	-o-transition: color .5s;
+	transition: color .5s;
+}
+
+a.th {
+	margin-bottom: 20px;
+}
+
+i.i-special-big:hover {
+	color:rgb(161,3,4);
+}
+
+i.i-special-med {
+	font-size: 30px;
+	line-height: 1;
+	-webkit-transition: color .5s;
+	-moz-transition: color .5s;
+	-o-transition: color .5s;
+	transition: color .5s;
+	color:black;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+i.i-special-med:hover {
+	color: rgb(51,153,255);
+}
+
+
+.margin {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+section#body h1, 
+ section#body h2, 
+ section#body h3 {
+	font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.space_white {
+	margin-bottom: 30px;
+}
+
+#wrap {
+	margin-top: 200px;
+	text-shadow:1px 1px 0px #fff;
+	overflow: auto;
+}
+
+#footer {
+	color:#AAA;
+	padding-top: 20px;
+	padding-bottom: 5px;
+
+	min-height: 228px;
+	background: black;
+}
+
+#footer ul {
+	list-style: none;
+}
+
+#footer label {
+	color:#aaa;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+input,textarea {
+	width: 100%;
+	border: 1px solid #333;
+	outline: none;
+	padding: 5px;
+	font-family: cursive;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#footer h6 {
+	color: #DDD;
+}
+
+#footer ul a {
+	color: #999;
+	font-size: 12px;
+}
+
+#header {
+
+	height: 180px;
+
+	/*background: url("/assets/images/white_banner_bg_logo.png") repeat;
+	border-bottom: 5px solid black; 
+	*/
+	z-index: 1;
+}
+
+a {
+	color:#3366FF;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#333399;
+}
+
+/* =Layout */
+.footer_info  {
+	
+}
+
+a.l-mail-info {
+	display: inline;
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+img.l-logo-header {
+	width: 300px;
+}
+
+.big_title {
+	font-size: 3em;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.l-alert {
+	padding: 15px;
+	border-radius: 5px;
+	color:white;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: none;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.contact-button {
+	width: 100px;
+display: block;
+margin-left: 14px;
+}
+
+
+
+.l-alert.success {
+	background: #0A7317;
+	border: 1px solid #1B9429;
+}
+
+.l-alert.error {
+	background: #911A1A;
+	border: 1px solid #DB2323;
+}
+
+.l-item h1  {
+	/* border-bottom: 3px solid #333;
+	 font-size: 40px; */
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.l-item h2 {
+	/* border-bottom: 3px solid #333;
+	 font-size: 25px; */
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.container_12.l-container-special {
+	position: absolute;
+	top: 0px;
+	margin-left: -480px;
+	left: 50%;
+}
+
+.l-item {
+	min-height: 120px;
+	/*border-left: 1px dashed #333;
+	border-right: 1px dashed #333;
+	margin-bottom: 50px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+
+	margin-bottom: 50px;
+}
+
+.s-love-que-e {
+	position: absolute;
+	margin-left: -470px;
+	background-color: rgb(255,255,255);
+	background-color: rgba(255,255,255,0.8);
+	padding: 20px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-webkit-box-shadow:  0px 0px 20px 2px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow:  0px 0px 20px 2px rgba(0, 0, 0, 0.8);
+    box-shadow:  0px 0px 20px 2px rgba(0, 0, 0, 0.8);
+    border-bottom:none;
+}
+
+.s-overlay {
+	z-index: 10;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top:0px;
+	left: 0px;
+	background: rgba(0,0,0,0.7);
+	display: none;
+	
+}
+
+.l-item h1 a, .l-item h2 a {
+	text-decoration: none;
+}
+
+.l-item-content {
+	color:black;
+	text-shadow:none;
+	font-family: Verdana;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top:  3px solid #333;
+	/* border-bottom: 1px dashed #333; */
+	min-height: 200px;
+
+}
+
+ul.l-list-footer , ul.l-list-footer li {
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.l-list-footer li {
+	margin-bottom: 5px;
+}
+
+#footer .l-list-footer a {
+	color: rgb(153, 153, 153);
+	text-decoration: none;
+}
+
+#footer .l-list-footer a:hover {
+	color: rgb(200, 200, 200);
+}
+
+section#body {
+	background: white;
+	padding-top: 50px;
+	min-height: 306px;
+}
+
+section#body.full {
+	background: white;
+	min-height: 550px;
+}
+
+select {
+	margin-bottom: 12px;
+}
+
+/* =Style */
+
+img.i-slide {
+	width: 300px;
+	border: 6px solid #BBB;
+	border-radius: 3px;
+	margin-bottom: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.i-clean-special {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.i-special-footer {
+	font-size: 10px;
+}
+
+.i-center {
+	text-align: center;
+}
+
+.i-left {
+	text-align: left;
+}
+
+.i-right {
+	text-align: right;
+}
+
+.i-color1 {
+	color: rgb(51,153,255);
+}
+
+.i-color2 {
+	color:rgb(68,118,23);
+}
+
+.i-color3 {
+	color:rgb(53,38,131);
+}
+
+.i-color4 {
+	color:rgb(161,3,4);
+}
+
+h1.i-menu { 
+	font-size: 40px;
+}
+
+h3.i-menu { 
+	font-size: 25px;
+}
+
+/* =states */
+
+.is-hidden {
+	display: none;
+}
+
+.is-show {
+	display: initial;
+}
